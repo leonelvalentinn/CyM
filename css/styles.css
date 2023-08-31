@@ -25,7 +25,7 @@ header{
     display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            justify-content: center;
+            justify-content: space-evenly;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -484,9 +484,6 @@ header{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 40px;
-    height: 100vh;
-   
-
 }
 .card__inner{
     cursor: pointer;
@@ -599,7 +596,7 @@ header{
   top:calc(20% - 30px);
   left: calc(10% - 20px);
   background: #fff;
-  
+  z-index: 99;
 
 }
 .list__item{
@@ -920,23 +917,19 @@ text-align: center;
         -ms-flex-direction: column;
             flex-direction: column;
     visibility: hidden;
-    z
 }
 .aparecer{
- 
-  position: fixed;
-  bottom: 130px;
-  right: 2rem;
+    position: fixed;
+    bottom: 130px;
+    right: 2rem;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
     z-index: 998;
     -webkit-transform: translateY(0);
-        -ms-transform: translateY(0);
-            transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
     visibility: visible;
-
-
 }
  .icono_principal{
     position: fixed;
