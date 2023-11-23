@@ -31,7 +31,12 @@ header{
             align-items: center;
 
 }
-
+.banner-promo {
+    width: 100%;
+}
+.banner-promo img {
+    width: 100%;
+}
 .item_header p a{
     color: #fff;
     font-size: 22px;
